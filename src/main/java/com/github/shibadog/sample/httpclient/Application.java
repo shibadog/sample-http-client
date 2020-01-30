@@ -13,7 +13,7 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
 public class Application {
 
     public static void main(String[] args) {
-        HttpMethod method = new PostMethod("http://localhost:8080/v1/autoli");
+        HttpMethod method = new PostMethod("http://localhost:8080/");
         HttpMethodParams methodParam = new HttpMethodParams();
         methodParam.setContentCharset("utf-8, iso-8859-1;q=0.5");
         method.setParams(methodParam);
